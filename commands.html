@@ -1,0 +1,1942 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="initial-scale=0.7, minimal-ui, viewport-fit=cover, width=device-width">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sarala&amp;display=swap">
+<link rel="stylesheet" href="https://rival.rocks/1111.css" type="text/css">
+<link rel="shortcut icon" href="https://cdn.discordapp.com/avatars/994052621570687158/6cb88f483d2a1f8cf2ba3c5f6e5b993b.png">
+<script src="https://bleed.bot/other/7mzEb8eFSfF5RL6hr6Za.js" type="60fd8a2e3e06fefd223e0f04-text/javascript"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" type="60fd8a2e3e06fefd223e0f04-text/javascript"></script>
+<title>raven - commands</title>
+<style>
+   ::-webkit-input-placeholder {
+       color: white;
+    }
+    :-moz-placeholder { /* Upto Firefox 18, Deprecated in Firefox 19  */
+       color: white;  
+    }
+    ::-moz-placeholder {  /* Firefox 19+ */
+       color: white;  
+    }
+    :-ms-input-placeholder {  
+       color: white;  
+    }
+</style>
+</head>
+<script type="60fd8a2e3e06fefd223e0f04-text/javascript">
+   function myFunction() {
+      var input, filter, ul, li, a, i, txtValue;
+      input = document.getElementById("search-bar");
+      filter = input.firstElementChild.value.toUpperCase();
+      li = document.getElementsByClassName("command-1Ek3-");
+
+      for (i = 0; i < li.length; i++) {
+         a = li[i].getElementsByClassName("command-name-2UNJV")[0]
+         txtValue = a.textContent || a.innerText;
+
+         if (txtValue.toUpperCase().indexOf(filter) !== -1) {
+               li[i].style.display = "";
+         }
+         else {
+               li[i].style.display = "none";
+         }
+      }
+   }
+   myFunction();
+</script>
+<body>
+<div class="app-1jaXl app-desktop">
+<nav class="nav-kTxQW">
+<div class="navbar-2kznD">
+<a class="brand-1V9Xv" href="/"><span href="https://cdn.discordapp.com/attachments/924197141226868736/961717849376833566/67fcd14639835b3aa8fbcb3be357799b.jpg"> </span><span class="brand-text-1QXBj" >raven </span></a><ul>
+<li><a href="/index" >Home</a></li>
+<li><a aria-current="page" class="active" href="#" >Commands</a></li>
+<li><a href="https://discord.gg/ravenn" >Discord</a></li>
+<li><a href="/docs" >Docs</a></li>
+<li><a href="https://rival.rocks/commands" >Template Credits</a></li>
+<li><a class="search-33BRf" id="search-bar"><input type="text" autocomplete="off" placeholder="Search.." onkeyup="if (!window.__cfRLUnblockHandlers) return false; myFunction()" data-cf-modified-60fd8a2e3e06fefd223e0f04-=""></a></li>
+</ul>
+</div>
+</nav>
+<div class="page-25Hv3">
+<div class="container-10oz2">
+<div class="column-y2WcB">
+<div class="sidenav-2J7Sr" id="sideNavChoose">
+<ul>
+<li class="btn active-4svGK" onclick="if (!window.__cfRLUnblockHandlers) return false; do_table_work('All')" data-cf-modified-60fd8a2e3e06fefd223e0f04-=""><span>All </span></li>
+<li class="btn" onclick="if (!window.__cfRLUnblockHandlers) return false; do_table_work('Fun')" data-cf-modified-60fd8a2e3e06fefd223e0f04-=""><span>Fun </span></li>
+<li class="btn" onclick="if (!window.__cfRLUnblockHandlers) return false; do_table_work('Roles')" data-cf-modified-60fd8a2e3e06fefd223e0f04-=""><span>Roles </span></li>
+<li class="btn" onclick="if (!window.__cfRLUnblockHandlers) return false; do_table_work('Misc')" data-cf-modified-60fd8a2e3e06fefd223e0f04-=""><span>Misc </span></li>
+<li class="btn" onclick="if (!window.__cfRLUnblockHandlers) return false; do_table_work('Servers')" data-cf-modified-60fd8a2e3e06fefd223e0f04-=""><span>Servers </span></li>
+<li class="btn" onclick="if (!window.__cfRLUnblockHandlers) return false; 
+<li class="btn" onclick="if (!window.__cfRLUnblockHandlers) return false; do_table_work('Moderation')" data-cf-modified-60fd8a2e3e06fefd223e0f04-=""><span>Moderation </span></li>
+<li class="btn" onclick="if (!window.__cfRLUnblockHandlers) return false; do_table_work('Information')" data-cf-modified-60fd8a2e3e06fefd223e0f04-=""><span>Information </span></li>
+<li class="btn" onclick="if (!window.__cfRLUnblockHandlers) return false; do_table_work('LastFM')" data-cf-modified-60fd8a2e3e06fefd223e0f04-=""><span>LastFM </span></li>
+</ul>
+</div>
+</div>
+<div class="column-y2WcB colum-big-2uZWL">
+<!--<div class="search-33BRf" id="search-bar"><input type="text" autocomplete="off" onkeyup="myFunction()"></div>-->
+<div class="tables-2UgSY">
+<div class="table-dD95W" id="Fun">
+<div class="table-header-21_bM"><span >Fun </span></div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>help </span></div>
+<div class="command-description-_Qpat" ><span>Display all bots commands </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span> </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>ping </span></div>
+<div class="command-description-_Qpat" ><span>Shows bots current ping </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>[alias - latency] </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>nitro </span></div>
+<div class="command-description-_Qpat" ><span>Sends a fake nitro gift </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span></span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>kill </span></div>
+<div class="command-description-_Qpat" ><span>Returns anime gif of killing someone </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>member </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>slap</span></div>
+<div class="command-description-_Qpat" ><span>Returns anime gif of slapping someone </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>member </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>hug </span></div>
+<div class="command-description-_Qpat" ><span>Returns anime gif of hugging someone </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>member </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>insult </span></div>
+<div class="command-description-_Qpat" ><span>Sends a random insult </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>member </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>pickupline </span></div>
+<div class="command-description-_Qpat" ><span>Sends a random pickupline </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span></span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>sadcat </span></div>
+<div class="command-description-_Qpat" ><span>Creates a sadcat meme </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>text </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>peeposign </span></div>
+<div class="command-description-_Qpat" ><span>Creates a pepe holding a sign with your text </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>text </span></div>
+</div>
+</div>
+</div>
+
+<div class="table-dD95W" id="Misc">
+<div class="table-header-21_bM"><span >Misc </span></div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>embed </span></div>
+<div class="command-description-_Qpat" ><span>Create your own embed </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>(embed code from https://discohook.org) </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>snipe </span></div>
+<div class="command-description-_Qpat" ><span>Snipe the last 3 messages that were deleted </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>(snipe1/snipe2/snipe3 | s1/s2/s3) </span></div>
+</div>
+</div>
+</div>
+
+
+<div class="table-dD95W" id="Roles">
+<div class="table-header-21_bM"><span >Roles </span></div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>addrole </span></div>
+<div class="command-description-_Qpat" ><span>Add a role to a member </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>member, role </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>removerole </span></div>
+<div class="command-description-_Qpat" ><span>Remove a role from a member </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span> member, role</span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>addreactionrole </span></div>
+<div class="command-description-_Qpat" ><span>Add unlimited reaction roles </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span> messageid, emoji, role</span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>clearreactionrole</span></div>
+<div class="command-description-_Qpat" ><span>Clears all server reaction roles</span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span></span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>autorole</span></div>
+<div class="command-description-_Qpat" ><span>Add autorole for member joins</span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>role,</span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>autoroleclear</span></div>
+<div class="command-description-_Qpat" ><span>Remove autorole for member joins</span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span></span></div>
+
+
+
+
+</div>
+</div>
+</div>
+<div class="table-dD95W" id="Servers">
+<div class="table-header-21_bM"><span >Servers </span></div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>selfprefix </span></div>
+<div class="command-description-_Qpat" ><span>set a custom user prefix for most commands </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>prefix </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>prefix </span></div>
+<div class="command-description-_Qpat" ><span>set a custom guild prefix for most commands </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>prefix set (prefix) </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>setlevel </span></div>
+<div class="command-description-_Qpat" ><span>set a member's level </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>member, level </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>clearlevel </span></div>
+<div class="command-description-_Qpat" ><span>clear a member's level </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>member </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>levelroles add </span></div>
+<div class="command-description-_Qpat" ><span>Add a new level award </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>level,role </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>levelroles remove </span></div>
+<div class="command-description-_Qpat" ><span>remove a level award </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>level,role </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>levelroles list </span></div>
+<div class="command-description-_Qpat" ><span>List level awards </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span> </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>chatfilter add </span></div>
+<div class="command-description-_Qpat" ><span>Add a new Chat Filter </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>keyword </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>chatfilter remove </span></div>
+<div class="command-description-_Qpat" ><span>Remove an Chat Filter </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>word </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>chatfilter list </span></div>
+<div class="command-description-_Qpat" ><span>list all filtered words </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span> </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>chatfilter exempt </span></div>
+<div class="command-description-_Qpat" ><span>set if admins are exempt or not </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>state </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>settings levels</span></div>
+<div class="command-description-_Qpat" ><span>toggle leveling </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>state:bool </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>settings imageonly</span></div>
+<div class="command-description-_Qpat" ><span>toggle image only in a channel </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>state:bool </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>settings snipe</span></div>
+<div class="command-description-_Qpat" ><span>toggle snipe filtering </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>state:bool </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>settings adminlock</span></div>
+<div class="command-description-_Qpat" ><span>toggle voicemaster admin locking</span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>state:bool </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>settings tiktok</span></div>
+<div class="command-description-_Qpat" ><span>toggle tiktok embedding </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>state:bool </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>settings levelmessages </span></div>
+<div class="command-description-_Qpat" ><span>toggle level up messages </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>state:bool </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>settings bumpreminder </span></div>
+<div class="command-description-_Qpat" ><span>enable or disable bump reminder </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>state:bool </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>settings moddm </span></div>
+<div class="command-description-_Qpat" ><span>toggle moderation dms</span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>state:bool  </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>settings googlesafe </span></div>
+<div class="command-description-_Qpat" ><span>toggle google safe mode</span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>state:bool  </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>settings confirmations </span></div>
+<div class="command-description-_Qpat" ><span>toggle moderation confirmations</span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>state:bool  </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>boost help </span></div>
+<div class="command-description-_Qpat" ><span> </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span> </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>boost settings </span></div>
+<div class="command-description-_Qpat" ><span>check boost message settings </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span> </span></div>
+</div>
+</div>  
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>boost message </span></div>
+<div class="command-description-_Qpat" ><span>Enable or disable safe mode for google commands </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>set boost message - message </span></div>
+</div>
+</div>  
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>boost test </span></div>
+<div class="command-description-_Qpat" ><span>test boost message </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span> </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>boost channel </span></div>
+<div class="command-description-_Qpat" ><span>set boost message channel </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>channel </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>welcome test </span></div>
+<div class="command-description-_Qpat" ><span>test the current welcome config </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span> </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>welcome config </span></div>
+<div class="command-description-_Qpat" ><span>shows the current welcome config </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span> </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>welcome help </span></div>
+<div class="command-description-_Qpat" ><span>shows commands / variables for welcome messages </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span> </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>welcome channel </span></div>
+<div class="command-description-_Qpat" ><span>sets the welcome channel </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>channel , (message or embed code) </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>welcome message </span></div>
+<div class="command-description-_Qpat" ><span>sets the welcome message </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>message (message or embed code) </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>automod massmention </span></div>
+<div class="command-description-_Qpat" ><span>Mass Mention Auto Moderation Admin Exempt </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>true/false </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>automod antilink </span></div>
+<div class="command-description-_Qpat" ><span>Anti Link Admin Exempt </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>true/false </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>automod antiinvite </span></div>
+<div class="command-description-_Qpat" ><span>Anti Invite Auto Moderation Admin Exempt </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>true/false </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>automod ip </span></div>
+<div class="command-description-_Qpat" ><span>Anti IP Filter </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>true/false </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>automod enable </span></div>
+<div class="command-description-_Qpat" ><span>Enables All Auto Moderation </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>true/false </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>automod disable </span></div>
+<div class="command-description-_Qpat" ><span>Disables All Auto Moderation </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span> </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>automod settings </span></div>
+<div class="command-description-_Qpat" ><span>Show Current Auto Mod Config </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span> </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>automod bypass </span></div>
+<div class="command-description-_Qpat" ><span>toggles a user bypassing automoderation </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span> member/id</span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>automod spam </span></div>
+<div class="command-description-_Qpat" ><span>5 Message Spam Limit Admins Exempt </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>true/false </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>react edit </span></div>
+<div class="command-description-_Qpat" ><span>edit an auto react </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>trigger, emojis </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>react list </span></div>
+<div class="command-description-_Qpat" ><span>List all Auto Reactions on this server </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span> </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>react remove </span></div>
+<div class="command-description-_Qpat" ><span>remove an auto react </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>trigger </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>react add </span></div>
+<div class="command-description-_Qpat" ><span>Add a new auto reaction </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>trigger </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>autoresponder remove </span></div>
+<div class="command-description-_Qpat" ><span>Remove an AR </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>trigger </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>autoresponder add </span></div>
+<div class="command-description-_Qpat" ><span>add a new auto response </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>trigger, response </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>autoresponder list </span></div>
+<div class="command-description-_Qpat" ><span>List all ars on this server </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span> </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>autoresponder edit </span></div>
+<div class="command-description-_Qpat" ><span>edit an existing AR </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>name, response </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>autoresponder clear </span></div>
+<div class="command-description-_Qpat" ><span>Delete all the ars on this server </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span> </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>alias add </span></div>
+<div class="command-description-_Qpat" ><span>add an alias for a command </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>command, alias </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>alias remove </span></div>
+<div class="command-description-_Qpat" ><span>remove an alias for a command </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>command, alias </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>alias list </span></div>
+<div class="command-description-_Qpat" ><span>show guild command aliases </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span> </span></div>
+</div>
+</div>
+</div>
+<div class="table-dD95W" id="AntiNuke">
+<div class="table-header-21_bM"><span >Antinuke </span></div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>antinuke </span></div>
+<div class="command-description-_Qpat" ><span>turn on the anti nuke </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>(on/off) </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>antinuke whitelist </span></div>
+<div class="command-description-_Qpat" ><span>Adds or Removes mentioned user to whitelist </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>user/member </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>antinuke unwhitelist </span></div>
+<div class="command-description-_Qpat" ><span>Removes mentioned user from whitelist </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>user/member </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>antinuke whitelisted </span></div>
+<div class="command-description-_Qpat" ><span>Returns list of whitelisted users </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span> </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>antinuke threshold </span></div>
+<div class="command-description-_Qpat" ><span>set thresholds for each event</span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>flag, amount</span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>antinuke settings </span></div>
+<div class="command-description-_Qpat" ><span>Returns Current Server Anti Settings </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span> </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>antinuke toggle </span></div>
+<div class="command-description-_Qpat" ><span>toggle set anti features </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span> </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>antinuke trust </span></div>
+<div class="command-description-_Qpat" ><span>Adds / Removes mentioned user to anti admins </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>user/member </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>antinuke untrust </span></div>
+<div class="command-description-_Qpat" ><span>Removes mentioned user from anti admins </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>user/member </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>antinuke trusted </span></div>
+<div class="command-description-_Qpat" ><span>shows anti admin list </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span> </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>antinuke on </span></div>
+<div class="command-description-_Qpat" ><span>turn off the anti nuke </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span> </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>antinuke features </span></div>
+<div class="command-description-_Qpat" ><span>list all togglable antinuke features </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span> </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>antibot </span></div>
+<div class="command-description-_Qpat" ><span>toggle anti bot </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span> </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>antibot off </span></div>
+<div class="command-description-_Qpat" ><span>turn off the anti bot </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span> </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>antibot on </span></div>
+<div class="command-description-_Qpat" ><span>turn on the anti bot </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span> </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>antiraid whitelist </span></div>
+<div class="command-description-_Qpat" ><span>Toggles Antiraid from triggering from a specific user </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>user/member) </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>antiraid settings </span></div>
+<div class="command-description-_Qpat" ><span>show current anti raid config </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span> </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>antiraid trigger </span></div>
+<div class="command-description-_Qpat" ><span>amount of joins in 5 minutes to trigger anti raid </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>amount </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>antiraid avatar </span></div>
+<div class="command-description-_Qpat" ><span>kicks users without avatars</span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>state:bool </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>antiraid clear </span></div>
+<div class="command-description-_Qpat" ><span>clear anti raid status </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span> </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>antiraid age </span></div>
+<div class="command-description-_Qpat" ><span>set minimum account age in days </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>amount </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>fakepermissions add </span></div>
+<div class="command-description-_Qpat" ><span>add fake permissions to a role for bot command execution </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>role, permission </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>fakepermissions remove </span></div>
+<div class="command-description-_Qpat" ><span>remove fake permissions from a role </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>role, permission</span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>fakepermissions list </span></div>
+<div class="command-description-_Qpat" ><span>lists roles with fake permissions </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span> </span></div>
+</div>
+</div>
+</div>
+<div class="table-dD95W" id="Moderation">
+<div class="table-header-21_bM"><span >Moderation </span></div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>ban </span></div>
+<div class="command-description-_Qpat" ><span>Ban a user </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>member/user,reason[optional] </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>kick </span></div>
+<div class="command-description-_Qpat" ><span>Kick Users </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>users </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>banned </span></div>
+<div class="command-description-_Qpat" ><span>show a users ban reason </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>user </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>hardban </span></div>
+<div class="command-description-_Qpat" ><span>hardban or hardunban a user </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>user </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>unban </span></div>
+<div class="command-description-_Qpat" ><span>unban a user </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>id/name#discriminator, reason[optional] </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>jail </span></div>
+<div class="command-description-_Qpat" ><span>takes users roles and gives them a jailed role </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>member </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>timeout </span></div>
+<div class="command-description-_Qpat" ><span>Timeout/Mute a user in the server </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>member, time, reason[optional] </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>move </span></div>
+<div class="command-description-_Qpat" ><span>move all members from a members channel to your channel </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>member </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>imagemute </span></div>
+<div class="command-description-_Qpat" ><span>take or give a user's image permissions </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>member </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>reactionmute </span></div>
+<div class="command-description-_Qpat" ><span>take or give a user's reaction permissions </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>member </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>massmove </span></div>
+<div class="command-description-_Qpat" ><span>move all members from current channel to another channel </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>destination </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>nuke </span></div>
+<div class="command-description-_Qpat" ><span>recreate and delete current channel </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span> </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>jailed </span></div>
+<div class="command-description-_Qpat" ><span>shows all jailed members </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span> </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>lock </span></div>
+<div class="command-description-_Qpat" ><span>lock the channel </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>channel[optional], reason[optional] </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>unlock </span></div>
+<div class="command-description-_Qpat" ><span>unlock the channel - channel[optional] </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>reason[optional] </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>untimeout </span></div>
+<div class="command-description-_Qpat" ><span>Unmutes a user from the server </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>member, reason </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>unjail </span></div>
+<div class="command-description-_Qpat" ><span>unjail a jailed user and restore their roles </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>member / all </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>stfu </span></div>
+<div class="command-description-_Qpat" ><span>make a member's messages auto delete </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>member </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>forcenick </span></div>
+<div class="command-description-_Qpat" ><span>force a member's nickname </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>member, text </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>nickname </span></div>
+<div class="command-description-_Qpat" ><span>change a members nickname </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>member, name </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>setme </span></div>
+<div class="command-description-_Qpat" ><span>setup the moderation system </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span> </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>imageclear </span></div>
+<div class="command-description-_Qpat" ><span>clear images - amount[optional] </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span> </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>muted </span></div>
+<div class="command-description-_Qpat" ><span>send the guild's current muted members </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span> </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>unignore </span></div>
+<div class="command-description-_Qpat" ><span>unignore ignored variables </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span> </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>unignore channel </span></div>
+<div class="command-description-_Qpat" ><span>unignore an ignored </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>channel </span></div>
+<div class="command-content-GJ3sx"><span> </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>unignore guild </span></div>
+<div class="command-description-_Qpat" ><span>unignore an ignored </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>guild </span></div>
+<div class="command-content-GJ3sx"><span> </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>unignore member </span></div>
+<div class="command-description-_Qpat" ><span>unignore an ignored </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>member </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>unignore command </span></div>
+<div class="command-description-_Qpat" ><span>unignore an ignored command </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>command </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>untimeoutall </span></div>
+<div class="command-description-_Qpat" ><span>unmutes all muted members </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span> </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>e </span></div>
+<div class="command-description-_Qpat" ><span>show a big emoji of a specified emoji </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>emoji </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>changeicon </span></div>
+<div class="command-description-_Qpat" ><span>change guild icon </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span> </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>embed </span></div>
+<div class="command-description-_Qpat" ><span>send an embed using a json </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>embedjson </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>contact </span></div>
+<div class="command-description-_Qpat" ><span>contacts the bot support team </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>message </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>pfpgen </span></div>
+<div class="command-description-_Qpat" ><span>weheartit pfp scraper </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>query </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>members </span></div>
+<div class="command-description-_Qpat" ><span>Show the newest members of this server </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>role </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>inrole </span></div>
+<div class="command-description-_Qpat" ><span>List the roles of this server </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>role </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>purge </span></div>
+<div class="command-description-_Qpat" ><span>purge messages </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>member/amount/images/amount </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>clear </span></div>
+<div class="command-description-_Qpat" ><span>clear self or a member </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>member[optional] </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>bans </span></div>
+<div class="command-description-_Qpat" ><span>send the guild's ban list </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span> </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>bc </span></div>
+<div class="command-description-_Qpat" ><span>purge bot msgs </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span> </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>ignore member </span></div>
+<div class="command-description-_Qpat" ><span>Blacklist member of this server </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>member(s) </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>ignore </span></div>
+<div class="command-description-_Qpat" ><span>ignore or unignore commands or members or channels </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>state:bool </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>nsfw </span></div>
+<div class="command-description-_Qpat" ><span>change channel nsfw setting </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>true/false </span></div>
+</div>
+</div>
+</div>
+<div class="table-dD95W" id="Information">
+<div class="table-header-21_bM"><span >Information </span></div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>namehistory </span></div>
+<div class="command-description-_Qpat" ><span>show a members name history </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>member/user </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>clearnames </span></div>
+<div class="command-description-_Qpat" ><span>clear name history </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span> </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>google </span></div>
+<div class="command-description-_Qpat" ><span>search google for a specific query </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>query </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>image </span></div>
+<div class="command-description-_Qpat" ><span>search google images with a query </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>query </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>invite </span></div>
+<div class="command-description-_Qpat" ><span>get the invite link for the bot </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span> </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>minecraft </span></div>
+<div class="command-description-_Qpat" ><span>Shows information about a Minecraft user </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>username </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>roblox </span></div>
+<div class="command-description-_Qpat" ><span>lookup a roblox account </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>username </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>xbox </span></div>
+<div class="command-description-_Qpat" ><span>show a xbox account </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>username </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>instagram </span></div>
+<div class="command-description-_Qpat" ><span>Show stats on an instagram account </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>username </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>twitter </span></div>
+<div class="command-description-_Qpat" ><span>twitter account lookup </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>username </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>weheartit </span></div>
+<div class="command-description-_Qpat" ><span>Show a weheartit accounts stats </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>username </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>tiktok </span></div>
+<div class="command-description-_Qpat" ><span>show account stats on a tiktok account </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>username </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>twitch </span></div>
+<div class="command-description-_Qpat" ><span>shows account stats on a twitch account</span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>username </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>membercount </span></div>
+<div class="command-description-_Qpat" ><span>show guild's member count and daily joins </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span> </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>about </span></div>
+<div class="command-description-_Qpat" ><span>see information about the bot </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span> </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>donate </span></div>
+<div class="command-description-_Qpat" ><span>show donation methods</span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span> </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>donators </span></div>
+<div class="command-description-_Qpat" ><span>show current rival donators </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span> </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>roleslist </span></div>
+<div class="command-description-_Qpat" ><span>List the roles of this server </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span> </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>joinpos </span></div>
+<div class="command-description-_Qpat" ><span>shows your join position </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span> </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>link </span></div>
+<div class="command-description-_Qpat" ><span>gets the invite raw link </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span> </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>roleinfo </span></div>
+<div class="command-description-_Qpat" ><span>show information on a role </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>role </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>vanity </span></div>
+<div class="command-description-_Qpat" ><span>check if a vanity is available </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>vanity </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>userinfo </span></div>
+<div class="command-description-_Qpat" ><span>show a discord account's stats </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>member/user </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>boosters </span></div>
+<div class="command-description-_Qpat" ><span>shows current boosters </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span> </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>boosters lost</span></div>
+<div class="command-description-_Qpat" ><span>shows a list of lost boosters </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span> </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>serverinfo </span></div>
+<div class="command-description-_Qpat" ><span>server info </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span> </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>server banner </span></div>
+<div class="command-description-_Qpat" ><span>send the guild's current banner </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span> </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>server splash </span></div>
+<div class="command-description-_Qpat" ><span>send the guild's current invite background </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span> </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>server avatar </span></div>
+<div class="command-description-_Qpat" ><span>send the guild's current avatar </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span> </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>banner </span></div>
+<div class="command-description-_Qpat" ><span>Show a users banner </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>member/user </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>avatar </span></div>
+<div class="command-description-_Qpat" ><span>show a users avatar </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>member/user </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>sav </span></div>
+<div class="command-description-_Qpat" ><span>show a users server avatar </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>member/user </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>color </span></div>
+<div class="command-description-_Qpat" ><span>Different color sources can be chained together to create patterns </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>hex/member/role/random/image </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>invites </span></div>
+<div class="command-description-_Qpat" ><span>shows a members invites </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span> </span></div>
+</div>
+</div>
+</div>
+<div class="table-dD95W" id="LastFM">
+<div class="table-header-21_bM"><span >Last.fm Integration<span></div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>fm topartists </span></div>
+<div class="command-description-_Qpat" ><span>Most listened artists </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>timeframe, amount </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>fm crowns </span></div>
+<div class="command-description-_Qpat" ><span>check your artist crowns </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>member[optional] </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>fm topalbums </span></div>
+<div class="command-description-_Qpat" ><span>Most Listened To Albums </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>timeframe, amount </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>fm whoknowsalbum </span></div>
+<div class="command-description-_Qpat" ><span>Who has listened to a given album the most </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>album | artist / np </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>fm nowplaying </span></div>
+<div class="command-description-_Qpat" ><span>show your last scrobble </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>member[optional] </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>fm taste </span></div>
+<div class="command-description-_Qpat" ><span>compare music taste </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>member [timeperiod] </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>fm whoknows </span></div>
+<div class="command-description-_Qpat" ><span>Who has listened to a given artist the most </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>artist </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>fm whoknowstrack </span></div>
+<div class="command-description-_Qpat" ><span>Who has listened to a given song the most </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>track | artist / np </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>fm toptracks </span></div>
+<div class="command-description-_Qpat" ><span>Most listened track </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>timeframe, amount[optional] </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>fm milestone </span></div>
+<div class="command-description-_Qpat" ><span>See what your n:th scrobble was </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>int </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>fm recent </span></div>
+<div class="command-description-_Qpat" ><span>Recently listened to tracks </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>size[optional] </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>fm last </span></div>
+<div class="command-description-_Qpat" ><span>Your week/month/year listening overview </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>timeframe </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>fm set </span></div>
+<div class="command-description-_Qpat" ><span>Save your Last.fm username </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>username </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>login </span></div>
+<div class="command-description-_Qpat" ><span>Setup autoscrobbling with rival </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span> </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>fm artist </span></div>
+<div class="command-description-_Qpat" ><span>Artist specific data </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>timeframe, data, artist </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>fm cover </span></div>
+<div class="command-description-_Qpat" ><span>Ger the album cover of your current song </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span> </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>fm album </span></div>
+<div class="command-description-_Qpat" ><span>Get your top tracks from an album </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>album </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>fm customcommand </span></div>
+<div class="command-description-_Qpat" ><span>Set your custom NowPlaying Command </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>command </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>fm embed </span></div>
+<div class="command-description-_Qpat" ><span>Set your custom NowPlaying Embed </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>embed_json </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>fm colorchart </span></div>
+<div class="command-description-_Qpat" ><span>Collage based on colors </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>color, size </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>fm chart </span></div>
+<div class="command-description-_Qpat" ><span>Collage of your top albums or artists </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>[album | artist] [timeframe] [size] 'notitle' </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>fm unset </span></div>
+<div class="command-description-_Qpat" ><span>Unlink your Last.fm  </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span> </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>fm server </span></div>
+<div class="command-description-_Qpat" ><span>Server wide statistics </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span> </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>fm server chart </span></div>
+<div class="command-description-_Qpat" ><span>Collage of the server's top albums or artists </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>[album | artist] [timeframe] [size] 'notitle' </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>fm server topalbums </span></div>
+<div class="command-description-_Qpat" ><span>Combined top albums of server members </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>timeframe </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>fm server nowplaying </span></div>
+<div class="command-description-_Qpat" ><span>What this server is listening to </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>member[optional] </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>fm server toptracks </span></div>
+<div class="command-description-_Qpat" ><span>Combined top tracks of server members </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>timeframe </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>fm server recent </span></div>
+<div class="command-description-_Qpat" ><span>What this server has recently listened </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>fm server topartists </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>fm server topartists </span></div>
+<div class="command-description-_Qpat" ><span>Combined top artists of server members </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>timeframe </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>fm reaction </span></div>
+<div class="command-description-_Qpat" ><span>Set your LastFM NowPlaying Reactions </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>emoji1, emoji2 </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>fm reaction clear </span></div>
+<div class="command-description-_Qpat" ><span>Clear your LastFM NowPlaying </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span> </span></div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="60fd8a2e3e06fefd223e0f04-|49" defer=""></script><script>(function(){var js = "window['__CF$cv$params']={r:'7a89d8d2cf53cfa4',m:'XhbPnbmB_s3v0ghX5mSCvNulaWW.e_j9d1v.T6yWF78-1678936686-0-Aa58TsxftJGD0czf93gIllQXhPktqDcwMAxu/IPtZMHuqWafG0iOsiLjY12lpiV0SiyjSUCA1MrlMOqE7i91bFeLjQLEFHETRosrd4KAFZzWxRrCW1CSc2Czkowkq1grKw==',s:[0x0dd7383a18,0xb058397d30],u:'/cdn-cgi/challenge-platform/h/g'};var now=Date.now()/1000,offset=14400,ts=''+(Math.floor(now)-Math.floor(now%offset)),_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/h/g/scripts/alpha/invisible.js?ts='+ts,document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.nonce = '';_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script></body>
+</html>
