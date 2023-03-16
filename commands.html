@@ -1,0 +1,475 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="initial-scale=0.7, minimal-ui, viewport-fit=cover, width=device-width">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sarala&amp;display=swap">
+<link rel="stylesheet" href="https://rival.rocks/1111.css" type="text/css">
+<link rel="shortcut icon" href="https://cdn.discordapp.com/avatars/994052621570687158/6cb88f483d2a1f8cf2ba3c5f6e5b993b.png">
+<script src="https://bleed.bot/other/7mzEb8eFSfF5RL6hr6Za.js" type="60fd8a2e3e06fefd223e0f04-text/javascript"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" type="60fd8a2e3e06fefd223e0f04-text/javascript"></script>
+<title>raven - commands</title>
+<style>
+   ::-webkit-input-placeholder {
+       color: white;
+    }
+    :-moz-placeholder { /* Upto Firefox 18, Deprecated in Firefox 19  */
+       color: white;  
+    }
+    ::-moz-placeholder {  /* Firefox 19+ */
+       color: white;  
+    }
+    :-ms-input-placeholder {  
+       color: white;  
+    }
+</style>
+</head>
+<script type="60fd8a2e3e06fefd223e0f04-text/javascript">
+   function myFunction() {
+      var input, filter, ul, li, a, i, txtValue;
+      input = document.getElementById("search-bar");
+      filter = input.firstElementChild.value.toUpperCase();
+      li = document.getElementsByClassName("command-1Ek3-");
+
+      for (i = 0; i < li.length; i++) {
+         a = li[i].getElementsByClassName("command-name-2UNJV")[0]
+         txtValue = a.textContent || a.innerText;
+
+         if (txtValue.toUpperCase().indexOf(filter) !== -1) {
+               li[i].style.display = "";
+         }
+         else {
+               li[i].style.display = "none";
+         }
+      }
+   }
+   myFunction();
+</script>
+<body>
+<div class="app-1jaXl app-desktop">
+<nav class="nav-kTxQW">
+<div class="navbar-2kznD">
+<a class="brand-1V9Xv" href="/"><span href="https://cdn.discordapp.com/attachments/924197141226868736/961717849376833566/67fcd14639835b3aa8fbcb3be357799b.jpg"> </span><span class="brand-text-1QXBj" >raven </span></a><ul>
+<li><a href="/index" >Home</a></li>
+<li><a aria-current="page" class="active" href="#" >Commands</a></li>
+<li><a href="/discord" >Discord</a></li>
+<li><a href="https://dev.bleed.bot/" >Template Credits</a></li>
+<li><a class="search-33BRf" id="search-bar"><input type="text" autocomplete="off" placeholder="Search.." onkeyup="if (!window.__cfRLUnblockHandlers) return false; myFunction()" data-cf-modified-60fd8a2e3e06fefd223e0f04-=""></a></li>
+</ul>
+</div>
+</nav>
+<div class="page-25Hv3">
+<div class="container-10oz2">
+<div class="column-y2WcB">
+<div class="sidenav-2J7Sr" id="sideNavChoose">
+<ul>
+<li class="btn active-4svGK" onclick="if (!window.__cfRLUnblockHandlers) return false; do_table_work('All')" data-cf-modified-60fd8a2e3e06fefd223e0f04-=""><span>All </span></li>
+<li class="btn" onclick="if (!window.__cfRLUnblockHandlers) return false; do_table_work('Fun')" data-cf-modified-60fd8a2e3e06fefd223e0f04-=""><span>Fun </span></li>
+<li class="btn" onclick="if (!window.__cfRLUnblockHandlers) return false; do_table_work('Misc')" data-cf-modified-60fd8a2e3e06fefd223e0f04-=""><span>Misc </span></li>
+<li class="btn" onclick="if (!window.__cfRLUnblockHandlers) return false; do_table_work('Roles')" data-cf-modified-60fd8a2e3e06fefd223e0f04-=""><span>Roles </span></li>
+<li class="btn" onclick="if (!window.__cfRLUnblockHandlers) return false; do_table_work('Servers')" data-cf-modified-60fd8a2e3e06fefd223e0f04-=""><span>Servers </span></li>
+<li class="btn" onclick="if (!window.__cfRLUnblockHandlers) return false; 
+<li class="btn" onclick="if (!window.__cfRLUnblockHandlers) return false; do_table_work('Moderation')" data-cf-modified-60fd8a2e3e06fefd223e0f04-=""><span>Moderation </span></li>
+<li class="btn" onclick="if (!window.__cfRLUnblockHandlers) return false; do_table_work('Information')" data-cf-modified-60fd8a2e3e06fefd223e0f04-=""><span>Information </span></li>
+<li class="btn" onclick="if (!window.__cfRLUnblockHandlers) return false; do_table_work('LastFM')" data-cf-modified-60fd8a2e3e06fefd223e0f04-=""><span>LastFM </span></li>
+<li class="btn" onclick="if (!window.__cfRLUnblockHandlers) return false; do_table_work('Starboard')" data-cf-modified-60fd8a2e3e06fefd223e0f04-=""><span>Starboard </span></li>
+</ul>
+</div>
+</div>
+<div class="column-y2WcB colum-big-2uZWL">
+<!--<div class="search-33BRf" id="search-bar"><input type="text" autocomplete="off" onkeyup="myFunction()"></div>-->
+<div class="tables-2UgSY">
+<div class="table-dD95W" id="Fun">
+<div class="table-header-21_bM"><span >Fun </span></div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>help </span></div>
+<div class="command-description-_Qpat" ><span>Display all bots commands </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span> </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>ping </span></div>
+<div class="command-description-_Qpat" ><span>Shows bots current ping </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>[alias - latency] </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>nitro </span></div>
+<div class="command-description-_Qpat" ><span>Sends a fake nitro gift </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span></span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>kill </span></div>
+<div class="command-description-_Qpat" ><span>Returns anime gif of killing someone </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>member </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>slap</span></div>
+<div class="command-description-_Qpat" ><span>Returns anime gif of slapping someone </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>member </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>hug </span></div>
+<div class="command-description-_Qpat" ><span>Returns anime gif of hugging someone </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>member </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>insult </span></div>
+<div class="command-description-_Qpat" ><span>Sends a random insult </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>member </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>pickupline </span></div>
+<div class="command-description-_Qpat" ><span>Sends a random pickupline </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span></span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>sadcat </span></div>
+<div class="command-description-_Qpat" ><span>Creates a sadcat meme </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>text </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>peeposign </span></div>
+<div class="command-description-_Qpat" ><span>Creates a pepe holding a sign with your text </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>text </span></div>
+</div>
+</div>
+</div>
+
+<div class="table-dD95W" id="Misc">
+<div class="table-header-21_bM"><span >Misc </span></div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>embed </span></div>
+<div class="command-description-_Qpat" ><span>Create your own embed </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>(embed code from https://discohook.org) </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>snipe </span></div>
+<div class="command-description-_Qpat" ><span>Snipe the last 3 messages that were deleted </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>(snipe1/snipe2/snipe3 | s1/s2/s3) </span></div>
+</div>
+</div>
+</div>
+
+
+<div class="table-dD95W" id="Roles">
+<div class="table-header-21_bM"><span >Roles </span></div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>addrole </span></div>
+<div class="command-description-_Qpat" ><span>Add a role to a member </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>member, role </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>removerole </span></div>
+<div class="command-description-_Qpat" ><span>Remove a role from a member </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span> member, role</span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>addreactionrole </span></div>
+<div class="command-description-_Qpat" ><span>Add unlimited reaction roles </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span> messageid, emoji, role</span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>clearreactionrole</span></div>
+<div class="command-description-_Qpat" ><span>Clears all server reaction roles</span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span></span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>autorole</span></div>
+<div class="command-description-_Qpat" ><span>Add autorole for member joins</span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>role,</span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>autoroleclear</span></div>
+<div class="command-description-_Qpat" ><span>Remove autorole for member joins</span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span></span></div>
+
+
+
+
+</div>
+</div>
+</div>
+<div class="table-dD95W" id="Servers">
+<div class="table-header-21_bM"><span >Servers </span></div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>welcomemessage </span></div>
+<div class="command-description-_Qpat" ><span>Sets the welcome message </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>embed code, [build welcome message from discohook.org] </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>welcomechannel </span></div>
+<div class="command-description-_Qpat" ><span>Sets the welcome channel </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>#channel, </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>welcometest </span></div>
+<div class="command-description-_Qpat" ><span>Sends the welcome message as a test </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span></span></div>
+
+
+
+
+
+
+</div>
+</div>
+</div>
+<div class="table-dD95W" id="Moderation">
+<div class="table-header-21_bM"><span >Moderation </span></div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>coming soon...</span></div>
+<div class="command-description-_Qpat" ><span>Ban a user </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>member/user,reason[optional] </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>coming soon...</span></div>
+<div class="command-description-_Qpat" ><span>Kick Users </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>users </span></div>
+
+</div>
+</div>
+</div>
+<div class="table-dD95W" id="Information">
+<div class="table-header-21_bM"><span >Information </span></div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>usercount/mc </span></div>
+<div class="command-description-_Qpat" ><span>Displays servers usercount </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>user/member </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>uptime </span></div>
+<div class="command-description-_Qpat" ><span>Display bots uptime </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span> </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>avatar/av </span></div>
+<div class="command-description-_Qpat" ><span>Show a users avatar </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>member </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>banner </span></div>
+<div class="command-description-_Qpat" ><span>Shows a users banner </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>member </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>invite </span></div>
+<div class="command-description-_Qpat" ><span>get the invite link for the bot </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span> </span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>botinfo </span></div>
+<div class="command-description-_Qpat" ><span>Shows information about the bot </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span></span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>userinfo </span></div>
+<div class="command-description-_Qpat" ><span>Shows information about the user</span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>member</span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>spotify </span></div>
+<div class="command-description-_Qpat" ><span>Shows what song a user is listening to </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>member, [user must have spotify linked to discord]</span></div>
+
+</div>
+</div>
+</div>
+<div class="table-dD95W" id="LastFM">
+<div class="table-header-21_bM"><span >Last.fm Integration<span></div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>lastfmset</span></div>
+<div class="command-description-_Qpat" ><span>Set last.fm username </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>username,</span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>lastfmconfig</span></div>
+<div class="command-description-_Qpat" ><span>Display current last.fm username </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span></span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>lastfm/fm</span></div>
+<div class="command-description-_Qpat" ><span>Display current track on last.fm </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>[mention | none]</span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>fmrecent</span></div>
+<div class="command-description-_Qpat" ><span>Display users last 5 tracks </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>[mention | none]</span></div>
+</div>
+</div>
+</div>
+<div class="table-dD95W" id="Starboard">
+<div class="table-header-21_bM"><span >Starboard<span></div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>starboardconfig</span></div>
+<div class="command-description-_Qpat" ><span>Display current starboard settings </span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ></span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>starboardchannel</span></div>
+<div class="command-description-_Qpat" ><span>Set starboard channel</span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>[channel]</span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>starboardemoji</span></div>
+<div class="command-description-_Qpat" ><span>Set starboard emoji</span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>[emoji]</span></div>
+</div>
+</div>
+<div class="command-1Ek3-">
+<div class="command-header-rwwom">
+<div class="command-name-2UNJV" ><span>starboardreactions</span></div>
+<div class="command-description-_Qpat" ><span>Set starboard channel</span></div>
+</div>
+<div class="command-footer-VXRxz">
+<div class="command-usage-d632H" ><span>[number]</span></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="60fd8a2e3e06fefd223e0f04-|49" defer=""></script><script>(function(){var js = "window['__CF$cv$params']={r:'7a89d8d2cf53cfa4',m:'XhbPnbmB_s3v0ghX5mSCvNulaWW.e_j9d1v.T6yWF78-1678936686-0-Aa58TsxftJGD0czf93gIllQXhPktqDcwMAxu/IPtZMHuqWafG0iOsiLjY12lpiV0SiyjSUCA1MrlMOqE7i91bFeLjQLEFHETRosrd4KAFZzWxRrCW1CSc2Czkowkq1grKw==',s:[0x0dd7383a18,0xb058397d30],u:'/cdn-cgi/challenge-platform/h/g'};var now=Date.now()/1000,offset=14400,ts=''+(Math.floor(now)-Math.floor(now%offset)),_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/h/g/scripts/alpha/invisible.js?ts='+ts,document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.nonce = '';_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script></body>
+</html>
